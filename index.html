@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tranqpup.net</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(to right, #FF0000, #000000);
+            color: white;
+            text-align: center;
+            padding: 0px;
+        }
+        main {
+            display: flex;
+            flex: 1;
+            margin: 0;
+        }
+        .sidebar {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            width: 20%;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            overflow-y: auto;
+        }
+        .sidebar.left {
+            left: 0;
+			overflow-x: hidden;
+			overflow-y: hidden;
+        }
+        .sidebar.right {
+            right: 0;
+			overflow-x: hidden;
+			overflow-y: hidden;
+        }
+        .content {
+            background-image: url('img/back.png');
+            padding: 20px;
+            flex: 1;
+            margin: 0 20%;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+        .post {
+            margin-bottom: 20px;
+            border: 2px solid #FF0000;
+            padding: 20px;
+            background-color: #000;
+        }
+        .post h2 {
+            color: #FF0000;
+            margin-top: 0;
+			font-size: 16px;
+        }
+        .post p {
+            color: #ddd;
+        }
+        footer {
+            background: linear-gradient(to right, #000000, #FF0000);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #FF0000;
+            margin-bottom: 10px;
+        }
+		nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000;
+			border: 3px solid #FF0000;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        nav a:hover {
+            color: #ddd;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <main>
+		
+		
+	
+	
+        <aside class="sidebar left">
+			<img style="border:0px solid #000000" src="images/sidebar.gif" border = 3px solid #000000>
+			<img style="border:0px solid #000000" src="images/bill.gif" border = 3px solid #000000>
+			<img style="border:0px solid #000000" src="images/bill2.gif" border = 3px solid #000000>
+			<img style="border:0px solid #000000" src="images/bill3.gif" border = 3px solid #000000>
+            <h2></h2>
+            <p></p>
+        </aside>
+		
+		
+		
+        <section class="content">
+            <center><img src="images/homebanner.png"></center>
+			<p></p>
+			
+			
+			<article class="post">
+                <h2>5.26.2025 ► HI, HOW ARE YOU?</h2>
+				<img src="images/img5.26.25.png">
+				<p>new blog brr <br><br>this site will be updated from time to time with whatever i'm working on</p>
+            </article>			      
+			
+			
+			
+        </section>
+        <aside class="sidebar right">
+		
+			<img style="border:0px solid #fff" src="images/top.png" alt="check out these links" style="width:20px;height:42px;">
+			
+			<a href="my_music.html">
+				<img style="border:1px solid #fff" src="images/music.png" alt="check out my music" style="width:20px;height:42px;">
+			</a>
+			
+			<a href="my_photos.html">
+				<img style="border:1px solid #fff" src="images/photos.png" alt="check out my photography" style="width:20px;height:42px;">
+			</a>
+			
+			<a href="my_vids.html">
+				<img style="border:1px solid #fff" src="images/video.png" alt="check out my videos" style="width:20px;height:42px;">
+			</a>
+			
+			<a href="my_comics.html">
+				<img style="border:1px solid #fff" src="images/comic.png" alt="check out my comics" style="width:20px;height:42px;">
+			</a>
+			
+			<a href="my_games.html">
+				<img style="border:1px solid #fff" src="images/games.png" alt="check out my g" style="width:20px;height:42px;">
+			</a>
+			
+			
+			
+            <p></p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 tranqpup.net , all applicable rights reserved | contact@tranqpup.net</p>
+    </footer>
+</body>
+</html>
